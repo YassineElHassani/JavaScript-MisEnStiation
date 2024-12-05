@@ -30,7 +30,7 @@ nav .js {
 }
 
 main {
-    height: 100vh;
+    height: 84.2vh;
     margin: 50px;
 }
 
@@ -39,10 +39,33 @@ main {
     filter: drop-shadow(0 0 0.75rem yellow);
     border-radius: 50px;
     padding: 50px;
-    height: 80%;
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cont {
+    background-color: rgb(94, 96, 104);
+    filter: drop-shadow(0 0 0.75rem yellow);
+    border-radius: 50px;
+    padding: 50px;
+    height: 50%;
     width: 100%;
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container #div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -51,8 +74,7 @@ main {
     filter: drop-shadow(0 0 0.75rem black);
     border-radius: 50px;
     padding: 30px;
-    height: 100%;
-    width: 100%;
+    width: 49%;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -108,8 +130,40 @@ main {
 }
 
 .Level {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.L1C1 {
+    display: grid;
+}
+
+.L1C1 img {
+    margin-bottom: 50px;
+}
+
+h1 {
     padding-left: 5%;
     font-weight: bolder;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+#L1C1_btn {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#L1C1_btn:hover {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    transform: scale(1.2);
+    cursor: pointer;
 }
