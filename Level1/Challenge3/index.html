@@ -6,13 +6,28 @@
     <link rel="stylesheet" href="../../style/style.css">
     <title>Level1_Challenge3</title>
 </head>
-<body>
+<body onmousemove="displayCoords(event)" onmouseout="resetCoords()">
     <header>
         <nav>
             <p class="js">JS</p>
             <p>MisEnStiation</p>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <main>
+            <div class="cont">
+                <div class="L1C1">
+                    <a href="../../index.html"><img src="../../images/back-button.png" height="50px" width="50px"></a>
+                    <h1>Afficher la position de la souris sur la page en temps réel</h1>
+                    <span id="L1C1_btn">
+                        <center>
+                            <p id="coordsPosition" style="color: white; font-weight: bold; font-size: 30px;"></p>
+                        </center>
+                    </span>
+                </div>
+            </div>
+        </main>
+        <script src="main.js"></script> 
+    </main>
 </body>
 </html>
