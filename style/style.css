@@ -181,4 +181,5 @@ h1 {
 .newClass {
     background-color: black !important;
     color: white !important;
+    margin-inline: auto;
 }
