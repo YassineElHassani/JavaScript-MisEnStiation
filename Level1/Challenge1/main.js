@@ -7,4 +7,4 @@ btn.addEventListener("click", function() {
     } else if(bodyColor.style.background === 'yellow') {
         bodyColor.style.background = 'gray';
     }
-}); 
+});
