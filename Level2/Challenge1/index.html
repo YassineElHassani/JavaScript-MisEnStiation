@@ -13,6 +13,24 @@
             <p>MisEnStiation</p>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <main>
+            <div class="cont">
+                <div class="L1C1">
+                    <a href="../../index.html"><img src="../../images/back-button.png" height="50px" width="50px"></a>
+                    <h1>Create a list of items and allow dynamic addition of items</h1>
+                    <label for="listItems" style="font-size: 25px; font-weight: bold; padding-bottom: 10px; padding-left: 60px;">Type something to add</label>
+                    <div style="display: flex; gap: 10px; margin-inline: auto;">
+                        <input type="text" id="itemInput" style="height: 50px; width: 500px; border-radius: 30px; padding-left: 10px; font-size: 15px;" required/>
+                        <button id="addItemsBtn" type="button" style="height: 50px; width: 150px; border-radius: 30px; font-weight: bold; font-size: 15px;">Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div class="elem" style="background-color: rgba(196, 165, 27, 0.575); margin-top: 30px; height: auto; width: 100%; border-radius: 30px; margin-inline: auto; padding: 15px;">
+                <ul id="itemList" style="padding: 0; list-style: none; font-size: 20px; font-weight: bold;"></ul>
+            </div>
+        </main>
+        <script src="main.js"></script> 
+    </main>
 </body>
 </html>
